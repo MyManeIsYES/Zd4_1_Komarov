@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd4_k.Page2"
+             Title="Курс валют">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal">
+            <StackLayout Orientation="Vertical">
+                <Label Text="Центробанк РФ:"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="USD" FontSize="Large"/>
+                    <Entry x:Name="USD"
+                        TextChanged="USD_TextChanged"
+                           Text="80.000"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="EUR" FontSize="Large"/>
+                    <Entry x:Name="EUR"
+                        Text="86.000" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Текущая дата:"/>
+                <DatePicker/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

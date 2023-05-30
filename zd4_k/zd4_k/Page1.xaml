@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd4_k.Page1"
+             Title="Кредитный калькулятор">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Entry Placeholder="Сумма кредита"
+                   x:Name="Amo_cred" 
+                   TextChanged="Amo_cred_TextChanged"
+                   Margin="20,0,20,0"
+                       MaxLength="15"/>
+            <Entry Placeholder="Срок (Месяцев):"
+                   x:Name="Term"
+                   TextChanged="Term_TextChanged"
+                    Margin="20,0,20,0"
+                       MaxLength="15"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Вид платежа:"
+                       Margin="20,0,20,0"
+                       FontSize="Large"/>
+                <Picker x:Name="picker" SelectedIndex="0" SelectedIndexChanged="picker_SelectedIndexChanged">
+                    <Picker.Items>
+                        <x:String>Аннуитетный</x:String>
+                        <x:String>Дифференцированный</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Процентная ставка"
+                   FontSize="Large"
+                       Margin="20,0,20,0"/>
+                <Slider Maximum="100"
+                        x:Name="slider"
+                        ValueChanged="slider_ValueChanged"
+                        ThumbColor="Blue"
+                        MaximumTrackColor="Aqua"
+                        MinimumTrackColor="Black" 
+                        Value="5"/>
+                <Label Text="5%"
+                       x:Name="label_slider"
+                       Margin="20,0,20,0"
+                       VerticalTextAlignment="Center"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Ежемесячный платеж: ..."
+                       x:Name="Monthly_payment"
+                   Margin="20,40,20,20"/>
+                <Label Text="Общая сумма: ..."
+                       x:Name="Total_amount"
+                   Margin="20,0,20,20"/>
+                <Label Text="Переплата: ..."
+                       x:Name="Overpayment"
+                   Margin="20,0,20,20"/>
+            </StackLayout>
+        </StackLayout>
+        
+    </ContentPage.Content>
+
+</ContentPage>

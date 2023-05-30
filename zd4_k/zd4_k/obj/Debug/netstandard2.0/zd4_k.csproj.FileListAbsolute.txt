@@ -1,0 +1,17 @@
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\bin\Debug\netstandard2.0\zd4_k.deps.json
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\bin\Debug\netstandard2.0\zd4_k.dll
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\bin\Debug\netstandard2.0\ref\zd4_k.dll
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\bin\Debug\netstandard2.0\zd4_k.pdb
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\zd4_k.GeneratedMSBuildEditorConfig.editorconfig
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\zd4_k.AssemblyInfoInputs.cache
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\zd4_k.AssemblyInfo.cs
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\zd4_k.csproj.CoreCompileInputs.cache
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\XamlC.stamp
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\zd4_k.dll
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\ref\zd4_k.dll
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\zd4_k.pdb
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\zd4_k.csproj.AssemblyReference.cache
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\AndroidStudio_projects\XamarinFormspr\zd4_k\zd4_k\zd4_k\obj\Debug\netstandard2.0\Page2.xaml.g.cs
